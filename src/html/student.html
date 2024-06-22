@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form id="studentForm">
+      <div class="form-group">
+        <label for="first_name">First Name</label>
+        <input
+          type="text"
+          id="first_name"
+          name="first_name"
+          placeholder="John"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="last_name">Last Name</label>
+        <input
+          type="text"
+          id="last_name"
+          name="last_name"
+          placeholder="Doe"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="example@example.com"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="education">Education</label>
+        <input
+          type="text"
+          id="education"
+          name="education"
+          placeholder="BTech"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="year">Year of Completion</label>
+        <input
+          type="number"
+          id="year"
+          name="year"
+          placeholder="2024"
+          min="1900"
+          max="2024"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="technologies">Technologies ready to work with</label>
+        <input
+          type="text"
+          id="technologies"
+          name="technologies"
+          placeholder="Frontend / Backend"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="mobile">Mobile</label>
+        <input
+          type="tel"
+          id="mobile"
+          name="mobile"
+          placeholder="9876543210"
+          pattern="[6-9]\d{9}"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="address">Address</label>
+        <textarea
+          id="address"
+          name="address"
+          placeholder="123, Main St, Fifth Avenue"
+          required
+        ></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="city">City</label>
+        <input
+          type="text"
+          id="city"
+          name="city"
+          placeholder="New York"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="state">State / Province</label>
+        <input
+          type="text"
+          id="state"
+          name="state"
+          placeholder="New York"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="pincode">ZIP / Postal</label>
+        <input
+          type="text"
+          id="pincode"
+          name="pincode"
+          placeholder="10001"
+          pattern="\d{6}"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="pdf_file">PDF file</label>
+        <input
+          type="file"
+          id="pdf_file"
+          name="pdf_file"
+          accept="application/pdf"
+          required
+        />
+      </div>
+
+      <button type="submit" class="submit-btn">Submit</button>
+    </form>
+  </body>
+</html>

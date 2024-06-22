@@ -1,0 +1,117 @@
+{
+  "fields": [
+    {
+      "name": "first_name",
+      "type": "text",
+      "placeholder": "John",
+      "label": "First Name",
+      "validation": {
+        "required": true,
+        "errorMessage": "First Name is required"
+      }
+    },
+    {
+      "name": "last_name",
+      "type": "text",
+      "placeholder": "Doe",
+      "label": "Last Name",
+      "validation": {
+        "required": true,
+        "errorMessage": "Last Name is required"
+      }
+    },
+    {
+      "name": "email",
+      "type": "email",
+      "placeholder": "example@example.com",
+      "label": "Email Address",
+      "validation": {
+        "required": true,
+        "pattern": "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$",
+        "errorMessage": "Invalid email address"
+      }
+    },
+    {
+      "name": "company_name",
+      "type": "text",
+      "placeholder": "ABC Company",
+      "label": "Company Name",
+      "validation": {
+        "required": true,
+        "errorMessage": "Company Name is required"
+      }
+    },
+    {
+      "name": "field",
+      "type": "text",
+      "placeholder": "E-Commerce / Medical / Real Estate",
+      "label": "Field",
+      "validation": {
+        "required": true,
+        "errorMessage": "Field is required"
+      }
+    },
+    {
+      "name": "budget",
+      "type": "number",
+      "placeholder": "20000 - 30000",
+      "label": "Estimated Budget",
+      "validation": {
+        "required": true,
+        "errorMessage": "Budget is required"
+      }
+    },
+    {
+      "name": "mobile",
+      "type": "text",
+      "placeholder": "9876543210",
+      "label": "Mobile",
+      "validation": {
+        "required": true,
+        "pattern": "^[6-9]\\d{9}$",
+        "errorMessage": "Invalid mobile number"
+      }
+    },
+    {
+      "name": "address",
+      "type": "text",
+      "placeholder": "123 Main St Fifth Avenue",
+      "label": "Address",
+      "validation": {
+        "required": true,
+        "errorMessage": "Address is required"
+      }
+    },
+    {
+      "name": "city",
+      "type": "text",
+      "placeholder": "New York",
+      "label": "City",
+      "validation": {
+        "required": true,
+        "errorMessage": "City is required"
+      }
+    },
+    {
+      "name": "state",
+      "type": "text",
+      "placeholder": "New York",
+      "label": "State / Province",
+      "validation": {
+        "required": true,
+        "errorMessage": "State/Province is required"
+      }
+    },
+    {
+      "name": "pincode",
+      "type": "text",
+      "placeholder": "123456",
+      "label": "Zip / Postal Code",
+      "validation": {
+        "required": true,
+        "pattern": "^\\d{6}$",
+        "errorMessage": "Invalid Pincode"
+      }
+    }
+  ]
+}
